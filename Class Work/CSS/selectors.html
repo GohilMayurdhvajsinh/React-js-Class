@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Universel */
+        *{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        /* decendant selecoter */
+
+        div.one ul li a{
+            text-decoration: none;
+        }
+        /* child selector */
+        ul>li{
+            color: red;
+        }
+        /* adjacent sibling selector */
+        h1+p{
+            background-color: yellowgreen;
+        }
+        /* general sibling selector  */
+        h1~p{
+            color: red;
+        }
+        /* grouping selectors */
+        p,h1.span{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Have a nice day</h1>
+    <P>Have a nice day</P>
+    <p>this is a para</p>
+    <p>this is a para</p>
+    <span>This is  a span </span>
+    <p>this is a para</p>
+    <div class ="one">
+        <ul>
+            <li><a href="*"> Home </a></li>
+            <li><a href="*"> Home </a></li>
+            <li><a href="*"> Home </a></li>
+            <li><a href="*"> Home </a></li>
+            <li><a href="*"> Home </a></li>
+            
+        </ul>
+    </div>
+    <div class="two">
+        <ul>
+            <li><a href="*"> Home </a></li>
+            <li><a href="*"> Home </a></li>
+            <li><a href="*"> Home </a></li>
+            <li><a href="*"> Home </a></li>
+            <li><a href="*"> Home </a></li>
+        </ul>
+    </div>
+</body>
+</html>
