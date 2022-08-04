@@ -266,10 +266,32 @@ Links are categorized into three types. Typically a Link is displayed in three d
     3.Active links
 
 17)What are the different tags to separate sections of text?
-->
+->Three tags are used to separate the texts.
+
+<br> tag - Usually <br> tag is used to separate the line of text. It breaks the current line and conveys the flow to the next line
+
+<p> tag - The <p> tag contains the text in the form of a new paragraph.
+
+<blockquote> tag - It is used to define a large quoted section. If you have a large quotation, then put the entire text within <blockquote>.............</blockquote> tag.
+Related quest
 
 18)What is SVG?
-->
+->  SVG stands for Scalable Vector Graphics
+    SVG is used to define vector-based graphics for the Web
+    SVG defines the graphics in XML format
+    Every element and every attribute in SVG files can be animated
+    SVG is a W3C recommendation
+    SVG integrates with other W3C standards such as the DOM and XSL
+
+19)What is difference between HTML and XHTML?
+-> HTML is SGML-based while XHTML is XML-based. They are like two sides of the same coin. 
+   XHTML was derived from HTML to conform to XML standards. Hence XHTML is strict when compared to HTML and does not allow user to get away with lapses in coding and structure.
+
+20)What are logical and physical tags in HTML?
+->Logical tags describe the behaviour, nature of content for the text enclosed inside the tag. They represent the function of text on the page.
+  Physical tags are used to decide the appearance of the text and do not provide any information about the text.
+
+
 
 
 
