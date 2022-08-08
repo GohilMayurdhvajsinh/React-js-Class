@@ -43,10 +43,10 @@
 	border-radius: 45px;
 	position: relative;
 	margin: 0 auto;
-	animation-name: wheel;
+	/* animation-name: wheel;
 	animation-iteration-count: infinite;
 	animation-duration: 5s;
-	animation-timing-function: linear;
+	animation-timing-function: linear; */
 }
 
 .wheel .line {
@@ -107,14 +107,3 @@
 }
 
 
-@keyframes wavy {
-	0%{
-	background-position:
-	-400px 0px, -400px 0px,
-	-400px 0px,-400px 0px;
-	}
-	100%{
-	background-position: 800px 0px,
-	800px 0px, 800px 0px, 800px 0px;
-	}
-}
