@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+                   }
+        .droupdown{
+            margin: 0px auto;
+        }
+        nav{
+            height: 60px;
+            width: 100%;
+            background:black;
+            box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+        }
+        
+        nav ul{
+            padding: 0px;
+            margin: 0px ;
+          
+        }
+        nav ul li{
+            background: rgba(0, 0, 0, 0.555);
+            position: relative;
+            list-style-type: none;
+            display: inline-block;
+        }
+        nav ul li a {
+            display: block;
+            padding: 0 15px;
+            color: white;
+            text-decoration: none;
+            line-height: 60px;
+            font-size: 25px;
+        }
+        nav ul li a:hover{
+            background: rgba(0, 0, 0, 0.486);
+        }
+        nav ul ul{
+            position: absolute;
+            display: none;
+        }
+        nav ul li:hover > ul{
+            display: block;
+        }
+        nav ul ul li{
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="droupdown">
+        <nav>
+            
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a>
+                    <ul>
+                        <li><a href="#">Menu1</a></li>
+                        <li><a href="#">Menu2</a></li>
+                        <li><a href="#">Menu3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Menu1</a>
+                    <ul>
+                        <li><a href="#">Menu1</a></li>
+                        <li><a href="#">Menu2</a></li>
+                        <li><a href="#">Menu3</a>
+                            <ul>
+                                <li><a href="#">Menu1</a></li>
+                                <li><a href="#">Menu2</a></li>
+                                <li><a href="#">Menu3</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Menu2</a>
+                    <ul>
+                        <li><a href="#">Youtube</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Telegram</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="#">Feedback</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
