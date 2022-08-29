@@ -1,3 +1,19 @@
+.wheel {
+	animation-name: wheel;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+}
+
+@keyframes wheel {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
 .wrapper {
 	display: flex;
 }
